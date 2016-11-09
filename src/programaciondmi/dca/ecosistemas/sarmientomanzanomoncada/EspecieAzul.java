@@ -62,11 +62,9 @@ public class EspecieAzul extends EspecieAbstracta implements IHerbivoro {
 			int targetY = (int) (Math.random() * 500);
 			cambiarDireccion(new PVector(targetX, targetY));
 			//System.out.println("CAMBIO DIRECCION!");
-		}
-		
+		}	
 		x+=dir.x;
 		y+=dir.y;
-
 	}
 
 	@Override
@@ -80,7 +78,6 @@ public class EspecieAzul extends EspecieAbstracta implements IHerbivoro {
 			}
 			return true;
 		}
-		
 		return false;
 	}
 
@@ -91,6 +88,4 @@ public class EspecieAzul extends EspecieAbstracta implements IHerbivoro {
 		dir.mult(velocidad);
 		//System.out.println("[id=" + id + ", direcion=" + dir + "]");
 	}
-	
-	
 }

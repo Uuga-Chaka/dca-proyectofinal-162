@@ -180,7 +180,6 @@ public class EspecieBlanca extends EspecieAbstracta implements IApareable, ICarn
 			// perder energia
 			energia -= 50;
 		}
-
 	}
 	
 	/**
@@ -215,5 +214,4 @@ public class EspecieBlanca extends EspecieAbstracta implements IApareable, ICarn
 		// TODO implementar metodo
 		return false;
 	}
-
 }

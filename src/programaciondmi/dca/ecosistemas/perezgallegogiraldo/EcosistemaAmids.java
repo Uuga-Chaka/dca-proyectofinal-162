@@ -38,5 +38,4 @@ public class EcosistemaAmids extends EcosistemaAbstracto{
 		// TODO Auto-generated method stub
 		
 	}
-	
 }
